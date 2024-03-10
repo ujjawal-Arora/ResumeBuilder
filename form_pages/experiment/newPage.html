@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Education</title>
+  <link rel="stylesheet" href="style/sliderNewPage.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  <script src="https://kit.fontawesome.com/4cccec738b.js" 
+  crossorigin="anonymous"></script>
+  <script src="script/slider.js"></script>
+</head>
+
+<body >
+  <div class=" wrapper" >
+   
+
+    <div class="contain" id="cont">
+      <!-- Title of the form -->
+      <div class="title">Education</div>
+      <hr>
+      <div class="content">
+        <!-- Registration form -->
+
+
+
+
+        <form class="row g-10" action="#">
+          <div class="user-details">
+            <div class="  input-box">
+              <label for="SchoolName" class="details">University NAME</label>
+              <input style="color: black;" type="text" class="form-control" id="SchoolName" autofocus
+                placeholder="Oxford Software Institute" required>
+            </div>
+            <div class="input-box">
+              <label for="location" class="details">University LOCATION</label>
+              <input style="color: black;" type="text"  class="form-control" id="location"
+                placeholder="New Delhi, India">
+            </div>
+            <!-- <div class="col-md-12" style=" display: flex; justify-content: space-between; " > -->
+
+            <div class="  input-box"  >
+              <label for="degree" class="details">DEGREE</label>
+              <!-- <input style="color: black;" type="text"  class="form-control" id="input"
+                placeholder="New Delhi "> -->
+                <select style="color: black;" type="text" name="" id="degree" >
+                    <option>Select</option>
+                    <option>High School Diploma</option>
+                    <option>GED</option>
+                    <!-- <option>---------------------------------------</option> -->
+                    <option>Associate of Arts </option>
+                    <option>Associate of Science</option>
+                    <option>Associate of Applied Science</option>
+                    <!-- <option>---------------------------------------</option> -->
+                    <option>Bachelor of Arts</option>
+                    <option>Bachelor of Science</option>
+                    <option>BBA</option>
+                    <!-- <option>---------------------------------------</option> -->
+                    <option>Master of Arts</option>
+                    <option>Master of Science</option>
+                    <option>MBA</option>
+                    <!-- <option>---------------------------------------</option> -->
+                    <option>J.D.</option>
+                    <option>M.D.</option>
+                    <option>Ph.D.</option>
+                    <!-- <option>---------------------------------------</option> -->
+                    <option>Some College (No Degree)</option>
+                    <option>Enter a different degree</option>
+
+
+                    </select>
+            </div>
+
+            <div class="input-box">
+                <label for="input" class="details">ENTER YOUR DEGREE</label>
+                <input style="color: black;" type="text" class="form-control" id="input"
+                  placeholder="New Delhi, India">
+              </div>
+
+              <div class="  input-box">
+                <label for="fieldStudy" class="details">FIELD OF STUDY</label>
+                <input style="color: black;" type="text" class="form-control" id="fieldStudy"
+                  placeholder="Financial Accounting">
+              </div>
+              
+
+            <div class="input-box" style=" display: flex; margin-top:2px;"  >
+              <div class=" input-box "  >
+                <label for="graduateMonth" class="details">GRADUATION DATE</label>
+                
+                  <select style="color: black;" name="" id="graduateMonth">
+
+                    <option value="">Month</option>
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">Mar</option>
+                    <option value="">Apr</option>
+                    <option value="">May</option>
+                    <option value="">Jun</option>
+                    <option value="">Jul</option>
+                    <option value="">Aug</option>
+                    <option value="">Sep</option>
+                    <option value="">Oct</option>
+                    <option value="">Nov</option>
+                    <option value="">Dec</option>
+                
+                </select>
+              </div>
+              <div class=" input-box " style=" margin-top: 48px; margin-left: 38px;" >
+                <label for="graduateYear" class="details"> </label>
+                
+                  <select style="color: black;" name="" id="graduateYear" >
+
+                    <option value="">Year</option>
+                    <option value="">2024</option>
+                    <option value="">2023</option>
+                    <option value="">2022</option>
+                    <option value="">2021</option>
+                    <option value="">2020</option>
+                    <option value="">2019</option>
+                    <option value="">2018</option>
+                    <option value="">2017</option>
+                    <option value="">2016</option>
+                    <option value="">2015</option>
+                    <option value="">2014</option>
+                    <option value="">2013</option>
+                    <option value="">2012</option>
+                    <option value="">2011</option>
+                    <option value="">2010</option>
+                    <option value="">2009</option>
+                    <option value="">2008</option>
+                    <option value="">2007</option>
+                    <option value="">2006</option>
+                    <option value="">2005</option>
+                    <option value="">2004</option>
+                    <option value="">2003</option>
+                    <option value="">2002</option>
+                    <option value="">2001</option>
+                    <option value="">2000</option>
+                    <option value="">1999</option>
+                    <option value="">1998</option>
+                    <option value="">1997</option>
+                    <option value="">1996</option>
+                    <option value="">1995</option>
+                    <option value="">1994</option>
+                    <option value="">1993</option>
+                    <option value="">1992</option>
+                    <option value="">1991</option>
+                    <option value="">1900</option>
+
+                    
+                </select>
+              </div>
+            </div>
+
+
+          <!-- </div> -->
+
+           
+
+
+            <div class="divbutton">
+              <button class="button back" onclick="backwardedu()"><< BACKWARD</button>
+              <button class="button continue" type="button" onclick="saveFormDataNewPage()">FORWARD >></button>
+            </div>
+          </div>
+
+
+      </div>
+
+
+      </form>
+
+
+
+
+
+    </div>
+  </div>
+  </div>
+
+
+
+<!-- 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script> -->
+</body>
+
+</html>
